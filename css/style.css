@@ -1,0 +1,57 @@
+:root{
+    --preto: #141414;
+    --white: #ffffff;
+    --vermelho: #ff0000;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: var(--preto);
+}
+
+head .navHeader{
+    text-align: center;
+}
+header .navHeader{
+    color:white;
+    font-size: 15px;
+    margin-right: 25px;
+    text-decoration: none;
+
+}
+
+header .navHeader:hover{
+    color: rgb(180, 180, 180);
+}
+
+.iframeResponsive{
+    padding-bottom: 30%;
+    position: relative;
+
+}
+
+.iframeResponsiveCard{
+    padding-bottom: 70%;
+    position: relative;
+
+}
+
+.iframeResponsive > iframe{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    max-width: 95%;
+    max-height: 95%;
+    
+}
+.iframeResponsiveCard > iframe{
+    position: absolute;
+    top: 3%;
+    left: 2%;
+    width: 95%;
+    height: 95%;
+    
+}

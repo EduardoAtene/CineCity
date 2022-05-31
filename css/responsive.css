@@ -1,0 +1,214 @@
+@media  screen and (max-width:400px) {
+    .h1-res {
+        font-size: 1.5rem !important;
+        
+    }
+    .UnidadeCarrossel{
+        flex-direction: column;
+    }
+    .UnidadeCarrossel .textCarrosel{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        font-size: 12px;
+    }
+
+    /* Em Destaque */
+
+    #imageDestaque2{
+        display: none;
+    }
+
+    /* Ultimas avaliações */
+    .emDestaqueHeaderFlex{
+        flex-direction: column;
+    }
+    .conteinerUnicoAvaliacao{
+        margin-bottom: 40px;
+    }
+
+    /* Making Of */
+
+    .imagesAvaliadores{
+        width: 50% !important;
+        margin-left: 60px;
+    }
+    .textoAvaliadores{
+        width: 100% !important;
+    }
+
+
+    /* Em baixo do Making */
+    .estrelasDates {
+        flex-direction: column;
+    }
+    
+    .container-infoPagesEnd.container-infoPagesEnd-col12{
+        flex: 0 0 auto !important;
+        width: 100% !important; 
+    }
+
+    .text-SubPrincipal{
+        font-size: 2.0rem !important;    
+        justify-content: center;    
+    }
+
+    .text-SubPrincipal1{
+        font-size: 1.5rem !important;    
+        justify-content: center;    
+    }
+
+    .text-center-sys-600{
+        text-align: center !important;    
+    }
+    .justify-center-sys-600{
+        justify-content: center !important;    
+    }
+
+    /* Foolde */
+    #textFolder{
+        font-size: 10px !important;    
+
+    }
+}
+@media  screen and (max-width:650px) {
+    .h1-res {
+        font-size: 1.5rem !important;
+        
+    }
+    .UnidadeCarrossel{
+        flex-direction: column;
+    }
+    .UnidadeCarrossel .textCarrosel{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        font-size: 12px;
+    }
+
+    /* Em Destaque */
+
+    #imageDestaque3{
+        display: none;
+    }
+    #imageDestaque4{
+        display: none;
+    }
+
+    /* Ultimas avaliações */
+    #containerFlexAvaliacao{
+        flex-direction: column;
+    }
+    .conteinerUnicoAvaliacao{
+        margin-bottom: 40px;
+    }
+
+    /* Making Of */
+
+    #container-making-2{
+        display: none;
+    }
+    #container-making-1,.container-novidades{
+        width: 100% !important;
+    }
+
+
+    /* Em baixo do Making */
+    .container-infoPagesEnd {
+        flex-direction: column;
+
+    }
+    
+    .container-infoPagesEnd.container-infoPagesEnd-col12{
+        flex: 0 0 auto !important;
+        width: 100% !important; 
+    }
+
+    .text-SubPrincipal{
+        font-size: 2.0rem !important;    
+        justify-content: center;    
+    }
+
+    .text-SubPrincipal1{
+        font-size: 1.5rem !important;    
+        justify-content: center;    
+    }
+
+    .text-center-sys-600{
+        text-align: center !important;    
+    }
+    .justify-center-sys-600{
+        justify-content: center !important;    
+    }
+
+    /* Foolde */
+    #textFolder{
+        font-size: 10px !important;    
+
+    }
+}
+
+@media  screen and (max-width:1000px) {
+    .h1-res {
+        font-size: 2.0rem !important;
+        
+    }
+    .UnidadeCarrossel{
+        flex-direction: column;
+    }
+    .UnidadeCarrossel .textCarrosel{
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        font-size: 12px;
+    }
+
+    /* Em Destaque */
+    #imageDestaque4{
+        display: none;
+    }
+
+    /* Ultimas avaliações */
+    #containerFlexAvaliacao{
+        flex-direction: column;
+    }
+    .conteinerUnicoAvaliacao{
+        margin-bottom: 40px;
+    }
+
+    /* Making Of */
+
+    #container-making-3{
+        display: none;
+
+    }
+    .container-making {
+        flex: 0 0 auto !important;
+        width: 50% !important; 
+    }
+
+    /* Em baixo do Making */
+    .container-infoPagesEnd {
+        flex-direction: column;
+
+    }
+    
+    .container-infoPagesEnd.container-infoPagesEnd-col12{
+        flex: 0 0 auto !important;
+        width: 100% !important; 
+    }
+/* 
+    main .conteiner h1{
+        font-size: 8rem
+    }
+    main .conteiner section{
+        font-size:15px;
+        margin-right: 55%;
+        margin-left: 2%;
+    }
+
+    main button{
+        font-size: 18px;
+    } */
+    
+}
