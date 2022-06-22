@@ -35,7 +35,7 @@
         <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span style="color:white" class="fa fa-bars"></span>
         </button>
-        <a class="navbar-brand" href="#" style="height: 50px;">
+        <a class="navbar-brand" href="./index.html" style="height: 50px;">
           <img src="img/logo.png" style=" max-width: 100%;" class="img-fluid" alt="netflix logo"></a>
         </a>
 
@@ -43,19 +43,19 @@
         <div style="justify-content:center;" class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav mr-auto">
             <li>
-              <a class="nav-item navHeader" href="#">Lançamentos</a>
+              <a class="nav-item navHeader" href="./index.html#divPrincipalLancamentos">Lançamentos</a>
             </li>
             <li>
-              <a class="nav-item navHeader" href="#">Em Destaque</a>
+              <a class="nav-item navHeader" href="./index.html#divPrincipalNovidades">Em Destaque</a>
             </li>
             <li>
-              <a class="nav-item navHeader" href="#">Avaliações</a>
+              <a class="nav-item navHeader" href="./index.html#divPrincipalAvaliacao">Avaliações</a>
             </li>
             <li>
-              <a class="nav-item navHeader" href="#">Entrevistas e Makingof</a>
+              <a class="nav-item navHeader" href="./index.html#divPrincipalEntrevistas">Entrevistas e Makingof</a>
             </li>
             <li>
-              <a class="nav-item navHeader" href="#">Novidades</a>
+              <a class="nav-item navHeader" href="./index.html#divPrincipalNovidades">Novidades</a>
             </li>
           </ul>
 
@@ -63,9 +63,9 @@
         </div>
         <div class="col-3">
           <div class="input-group">
-            <input type="text" class="form-control bg-sys-preto border-system-light" placeholder="Pesquisar Filme" aria-label="Pesquisar Filme" aria-describedby="basic-addon2">
+            <input id="search" type="text" class="form-control bg-sys-preto border-system-light" placeholder="Pesquisar Filme" aria-label="Pesquisar Filme" aria-describedby="basic-addon2">
             <div class="input-group-append">
-              <button class="btn btn-outline-secondary " type="button"><span class="fas fa-search text-light"></span></button>
+              <button id="searchButton" class="btn btn-outline-secondary " type="button"><span class="fas fa-search text-light"></span></button>
             </div>
           </div>
         </div> 
@@ -97,7 +97,7 @@
   </div>  
 
   <!-- Title Lançamentos -->
-  <div class="container">
+  <div class="container" id="divPrincipalLancamentos">
     <div class="row justify-content-center text-center">
       <div class="h1 h1-res m-4" style="color:rgb(0, 0, 0)" id="titleInitial">
         Lançamentos
@@ -333,7 +333,7 @@
 
   <!-- Em Destaque -->
 
-  <div class="m-3">
+  <div class="m-3" id="divPrincipalDestaque">
       <div class="row m-4">
         <div class="d-flex justify-content-between align-items-center align-self-center emDestaqueHeaderFlex">
           <div class="h1">
@@ -342,9 +342,6 @@
           <div class="ml-aut">
             <select class="form-select" aria-label="Default select example">
               <option selected>Categorias: TODOS</option>
-              <option value="1">Terror</option>
-              <option value="2">Romance</option>
-              <option value="3">Suspense</option>
             </select>
           </div>
 
@@ -355,34 +352,38 @@
         <div class="container">
           <div class="row m-4">
               <div class="d-flex justify-content-between">
-                <div class="container bg-sys-default bh-sys-card bh-sys-card-click m-1" id="imageDestaque1">
-                  <a href="#"><img class="img-fluid bg-sys-card-child" src="img/mini1.jpg" alt=""></a>
-                </div>
+                <a id="imageDestaque1" href="#" input-idFilme="306819" class="buttonDetalsClickDestaque container bg-sys-default bh-sys-card bh-sys-card-click m-1 buttonDetalsClick" >
+                  <div >
+                    <img class="img-fluid bg-sys-card-child" src="img/mini2.jpg" alt="">
+                  </div>
+                </a>
+                <a input-idFilme="398818" class="buttonDetalsClickDestaque container bg-sys-default bh-sys-card bh-sys-card-click m-1" id="imageDestaque2">
+                  <div >
+                    <img class="img-fluid bg-sys-card-child" src="img/mini1.jpg" alt="">
+                  </div>
+                </a>
 
-                <div class="container bg-sys-default bh-sys-card bh-sys-card-click m-1" id="imageDestaque2">
-                  <a href="#"><img class="img-fluid bg-sys-card-child" src="img/mini2.jpg" alt=""></a>
-                </div>
-
-                <div class="container bg-sys-default bh-sys-card bh-sys-card-click m-1" id="imageDestaque3">
-                  <a href="#"><img class="img-fluid bg-sys-card-child" src="img/mini3.jpg" alt=""></a>
-                </div>
-
-                <div class="container bg-sys-default bh-sys-card bh-sys-card-click m-1" id="imageDestaque4">
-                  <a href="#"><img class="img-fluid bg-sys-card-child" src="img/mini4.jpg" alt=""></a>
-                </div>             
+                <a href="#" id="imageDestaque3" input-idFilme="449176" class="buttonDetalsClickDestaque container bg-sys-default bh-sys-card bh-sys-card-click m-1" >
+                  <div >
+                    <img class="img-fluid bg-sys-card-child" src="img/mini3.jpg" alt="">
+                  </div>
+                </a>
+                <a href="#" id="imageDestaque4" input-idFilme="376867" class="buttonDetalsClickDestaque container bg-sys-default bh-sys-card bh-sys-card-click m-1" >
+                  <div >
+                    <img class="img-fluid bg-sys-card-child" src="img/mini4.jpg" alt="">
+                  </div>      
+                </a>
+       
               </div>
           </div>
         </div>   
 
       </div>
 
-      <div class="col-12 d-flex justify-content-end">
-        <button type="button" class="btn btn-sys-primary m-2"><span class="fas fa-plus text-light"></span> Carregar mais Filmes</button>
-      </div>
   </div>
 
   <!-- Ultimas Avaliações -->
-  <div class="m-3">
+  <div class="m-3"id="divPrincipalAvaliacao">
     <div class="row m-4">
       <div class="d-flex justify-content-between align-items-center align-self-center">
         <div class="h1">
@@ -518,7 +519,7 @@
     
   <!-- Entevistas ... -->
 
-  <div class="m-3 bg-sys-preto-claro bh-sys-card">
+  <div class="m-3 bg-sys-preto-claro bh-sys-card" id="divPrincipalEntrevistas">
     <div class="container">
       <div class="row">
         <div class="h2 text-center-sys-600 text-SubPrincipal2" style="color: white;"> Entrevistas & Making of</div>
@@ -591,7 +592,7 @@
 
   <!-- Novidade, Sobre, EDITORIAL ... -->
 
-  <div class="m-3">
+  <div class="m-3" id="divPrincipalNovidades">
     <div class="row m-4 container-infoPagesEnd">
       <div class="col-8 container-infoPagesEnd container-infoPagesEnd-col12">
         <div class="row h1 text-SubPrincipal">
@@ -777,10 +778,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
 
+    <button class="btn btn-outline-secondary detalhesFilme" input-idFilme="338953" type="button"><span class="fas fa-search text-light"></span></button>
+
     <!--owl js-->
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
     <script src="js/owl/main.js"></script>
     <script src="js/avaliation.js"></script>
+    <script src="js/index.js"></script>
+    
   </body>
 </html>
