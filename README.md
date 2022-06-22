@@ -1,5 +1,5 @@
 # Criando uma Plataforma de Filmes
-# 
+
  Aluno: Eduardo Atene Silva
  Disciplina: Desenvolvimento de Interfaces Web
  Site Hospedado: https://cinecity.eduardoatene.repl.co/index.html
